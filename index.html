@@ -209,6 +209,9 @@
     .photo-divider-overlay { padding: 30px; }
     .h-card { flex-direction: column; align-items: flex-start; }
     .cd-sep { display: none; }
+    .g-wide-mobile{
+      grid-column: span 2; 
+    }
   }
   @media (prefers-reduced-motion: reduce) {
     * { animation: none !important; transition: none !important; }
@@ -330,7 +333,7 @@
       <div class="g-overlay"></div>
     </div>
     <!-- col 3 fila 1: entre las rocas -->
-    <div class="g-item g-wide" onclick="lb(2)">
+    <div class="g-item g-wide-mobile" onclick="lb(2)">
       <img src="img/love.jpeg" alt="Entre las rocas" loading="lazy">
       <div class="g-overlay"></div>
     </div>
